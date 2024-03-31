@@ -7,11 +7,21 @@
   min-height: 776px;
 }
 
+.u-section-1 .u-image-1 {
+  width: 657px;
+  height: 489px;
+  transition-duration: 1.25s;
+  transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
+  --animation-custom_in-translate_x: -300px;
+  --animation-custom_in-translate_y: 0px;
+  margin: 33px auto 0 -114px;
+}
+
 .u-section-1 .u-slider-1 {
   min-height: 398px;
   width: 705px;
   height: auto;
-  margin: 378px auto 0 49px;
+  margin: -144px auto 0 49px;
 }
 
 .u-section-1 .u-carousel-indicators-1 {
@@ -96,6 +106,12 @@
   .u-section-1 .u-sheet-1 {
     min-height: 640px;
   }
+
+  .u-section-1 .u-image-1 {
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 1;
+  }
 }
 
 @media (max-width: 991px) {
@@ -103,8 +119,15 @@
     min-height: 866px;
   }
 
+  .u-section-1 .u-image-1 {
+    width: 1012px;
+    height: 413px;
+    margin-top: 90px;
+    margin-left: -361px;
+  }
+
   .u-section-1 .u-slider-1 {
-    margin-top: 416px;
+    margin-top: -87px;
     margin-left: auto;
     margin-bottom: 51px;
   }
@@ -125,8 +148,15 @@
     min-height: 831px;
   }
 
+  .u-section-1 .u-image-1 {
+    width: 797px;
+    height: 325px;
+    margin-top: 173px;
+    margin-left: -318px;
+  }
+
   .u-section-1 .u-slider-1 {
-    margin-top: 404px;
+    margin-top: -94px;
     margin-bottom: 29px;
     margin-right: initial;
     margin-left: initial;
@@ -157,8 +187,14 @@
     min-height: 747px;
   }
 
+  .u-section-1 .u-image-1 {
+    width: 663px;
+    margin-top: 33px;
+    margin-left: -251px;
+  }
+
   .u-section-1 .u-slider-1 {
-    margin-top: 243px;
+    margin-top: -115px;
     margin-bottom: 20px;
     width: auto;
     margin-right: initial;
@@ -176,6 +212,20 @@
   .u-section-1 .u-text-3 {
     font-size: 2.25rem;
   }
+}
+
+.u-section-1 .u-image-1,
+.u-section-1 .u-image-1:before,
+.u-section-1 .u-image-1 > .u-container-layout:before {
+  transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
+}
+
+.u-section-1 .u-container-layout:hover .u-image-1 {
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
+}
+
+.u-container-layout.hover .u-section-1 .u-image-1 {
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
 } .u-section-2 {
   background-image: none;
 }
