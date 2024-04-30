@@ -42438,24 +42438,13 @@ a.u-link.u-text-hover-grey-90:hover {
   min-height: 120px;
 }
 
-.u-footer .u-image-1 {
-  width: 80px;
-  height: 40px;
-  margin: 0 auto 0 0;
-}
-
-.u-footer .u-logo-image-1 {
-  width: 100%;
-  height: 100%;
-}
-
 .u-footer .u-social-icons-1 {
   height: 23px;
   min-height: 16px;
   width: 122px;
   min-width: 94px;
   white-space: nowrap;
-  margin: -31px 0 0 auto;
+  margin: 48px 0 0 auto;
 }
 
 .u-footer .u-icon-1 {
@@ -42485,25 +42474,17 @@ a.u-link.u-text-hover-grey-90:hover {
     min-height: 200px;
   }
 
-  .u-footer .u-image-1 {
-    margin-left: 230px;
-  }
-
   .u-footer .u-social-icons-1 {
-    margin-top: 20px;
     margin-right: auto;
   }
 
   .u-footer .u-text-1 {
+    margin-left: 0;
+    margin-right: 0;
     width: 540px;
-    margin: 20px 0 0;
   }
 }
 @media (max-width: 575px) {
-  .u-footer .u-image-1 {
-    margin-left: auto;
-  }
-
   .u-footer .u-text-1 {
     width: 340px;
   }
