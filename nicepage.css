@@ -42389,16 +42389,17 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-sheet-1 {
-  min-height: 62px;
+  min-height: 66px;
 }
 
 .u-header .u-menu-1 {
-  margin: 14px 29px 14px auto;
+  margin: 14px 44px 14px auto;
 }
 
 .u-header .u-nav-1 {
   font-weight: 400;
   font-size: 1rem;
+  letter-spacing: normal;
 }
 
 .u-header .u-sidenav-1 {
@@ -42415,10 +42416,6 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-header .u-menu-1 {
     width: auto;
     margin-right: 12px;
-  }
-
-  .u-header .u-nav-1 {
-    letter-spacing: normal;
   }
 }
 
